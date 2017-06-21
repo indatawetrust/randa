@@ -1,6 +1,6 @@
 {
   "name": "randa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Randomness for arrays",
   "main": "index.js",
   "scripts": {

@@ -1,14 +1,14 @@
 const int = (min, max, size) => {
   let arr = [];
 
-  let value = Math.floor(Math.random() * max - min + 1) + min;
+  let value = Math.floor(Math.random() * (max - min + 1)) + min;
 
   while (arr.length < (size || max)) {
     if (arr.indexOf(value) == -1) {
       arr.push(value);
     }
 
-    value = Math.floor(Math.random() * max - min + 1) + min;
+    value = Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
   return arr;
@@ -17,14 +17,14 @@ const int = (min, max, size) => {
 const float = (min, max, size) => {
   let arr = [];
 
-  let value = Math.random() * max - min + 1 + min;
+  let value = Math.random() * (max - min + 1) + min;
 
   while (arr.length < (size || max)) {
     if (arr.indexOf(value) == -1) {
       arr.push(parseFloat(value.toFixed(2)));
     }
 
-    value = Math.random() * max - min + 1 + min;
+    value = Math.random() * (max - min + 1) + min;
   }
 
   return arr;
