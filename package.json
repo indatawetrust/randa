@@ -1,0 +1,26 @@
+{
+  "name": "randa",
+  "version": "0.0.1",
+  "description": "Randomness for arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indatawetrust/randa.git"
+  },
+  "keywords": [
+    "random",
+    "array"
+  ],
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/randa/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/randa#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  }
+}
