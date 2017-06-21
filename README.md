@@ -1,0 +1,2 @@
+# randa
+Randomness for arrays
