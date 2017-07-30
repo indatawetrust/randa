@@ -46,8 +46,18 @@ const regex = (pattern, len, size) => {
   return arr;
 };
 
+const shuffle = (arr, size = 0) => {
+  for (let i = arr.length; i; i--) {
+    let j = Math.floor(Math.random() * i);
+    [arr[i - 1], arr[j]] = [arr[j], arr[i - 1]];
+  }
+
+  return size ? arr.slice(0, size) : arr;
+};
+
 module.exports = {
   int,
   float,
   regex,
+  shuffle,
 };
